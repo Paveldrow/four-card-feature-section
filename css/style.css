@@ -75,6 +75,7 @@ img {
 
 @media (min-width: 1440px) {
   .card-section__title {
+    max-width: 540px;
     font-size: 36px;
     line-height: 54px;
     letter-spacing: 0.25px;
@@ -149,6 +150,7 @@ img {
     gap: 30px;
     width: 1110px;
   }
+  
   .card-section__list > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
