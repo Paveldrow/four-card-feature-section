@@ -133,7 +133,6 @@ img {
     justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    gap: 40px;
     width: 50%;
     width: 100%;
   }
@@ -220,12 +219,14 @@ img {
 
 @media (min-width: 768px) {
   .card-item {
-    margin-bottom: 0;
+    margin-bottom: 40px;
+    margin-right: 40px;
   }
 }
 
 @media (min-width: 1440px) {
   .card-item {
+    margin: 0;
     background-size: 64px 64px;
     background-position: right 32px bottom 32px;
   }
